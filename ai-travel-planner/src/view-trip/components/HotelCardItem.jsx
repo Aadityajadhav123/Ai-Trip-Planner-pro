@@ -36,7 +36,7 @@ function HotelCardItem({ hotel }) {
         {/* Image container with price badge */}
         <div className='relative overflow-hidden rounded-t-2xl'>
           <img 
-            src={photoUrl ? photoUrl : "/travel.jpg"} 
+            src={photoUrl ? photoUrl : "/default-travel.svg"} 
             alt={hotel?.hotelName} 
             className='w-full h-[180px] object-cover transition-transform duration-300 group-hover:scale-110'
           />

@@ -36,7 +36,7 @@ function InfoSection({trip}) {
       {/* Hero Image with overlay */}
       <div className='relative w-full h-[400px] md:h-[450px] rounded-2xl overflow-hidden mb-6'>
         <img 
-          src={photoUrl ? photoUrl : "/travel.jpg"} 
+          src={photoUrl ? photoUrl : "/default-travel.svg"} 
           alt='trip destination' 
           className='w-full h-full object-cover'
         />

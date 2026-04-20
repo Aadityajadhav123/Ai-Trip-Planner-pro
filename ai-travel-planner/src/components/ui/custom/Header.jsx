@@ -66,7 +66,7 @@ const [openDialog, setOpenDialog] = useState(false);
                 </Link>
                 <Popover>
                   <PopoverTrigger>
-                    <img src={user?.picture} className='h-9 w-9 rounded-full border-2 border-purple-500/50' alt="profile" />
+                    <img src={user?.picture || '/default-avatar.svg'} className='h-9 w-9 rounded-full border-2 border-purple-500/50' alt="profile" />
                   </PopoverTrigger>
                   <PopoverContent className='bg-gray-900/95 backdrop-blur-xl border border-white/10'>
                     <h2 className='cursor-pointer py-2 hover:text-purple-400 transition-colors' onClick={()=>{

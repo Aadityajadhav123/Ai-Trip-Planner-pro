@@ -32,7 +32,7 @@ function UserTripCardItem({ trip }) {
         {/* Image */}
         <div className='relative overflow-hidden rounded-t-2xl h-48'>
           <img
-            src={photoUrl ? photoUrl : '/travel.jpg'}
+            src={photoUrl ? photoUrl : '/default-travel.svg'}
             alt={trip?.userSelection?.location?.label}
             className='w-full h-full object-cover transition-transform duration-300 group-hover:scale-110'
           />

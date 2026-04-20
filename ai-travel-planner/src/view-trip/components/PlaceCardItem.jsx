@@ -42,7 +42,7 @@ function PlaceCardItem({ Place }) {
           {/* Image */}
           <div className='relative w-full md:w-32 h-40 md:h-auto flex-shrink-0 overflow-hidden rounded-t-xl md:rounded-l-xl md:rounded-t-none'>
             <img
-              src={photoUrl ? photoUrl : "/travel.jpg"}
+              src={photoUrl ? photoUrl : "/default-travel.svg"}
               alt={Place.placeName}
               className='w-full h-full object-cover transition-transform duration-300 group-hover:scale-110'
             />
