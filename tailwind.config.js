@@ -3,7 +3,7 @@ export default {
   darkMode: ["class"],
   content: [
     "./index.html",
-    "./ai-travel-planner/src/**/*.{js,ts,jsx,tsx}",
+    "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
     extend: {

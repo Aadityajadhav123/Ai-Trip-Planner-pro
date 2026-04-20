@@ -5,12 +5,12 @@
   "tsx": false,
   "tailwind": {
     "config": "tailwind.config.js",
-    "css": "ai-travel-planner/src/index.css",
+    "css": "src/index.css",
     "baseColor": "slate",
     "cssVariables": "true"
   },
   "aliases": {
-    "components": "ai-travel-planner/src/components",
-    "utils": "ai-travel-planner/src/lib/utils"
+    "components": "src/components",
+    "utils": "src/lib/utils"
   }
 }

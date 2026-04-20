@@ -6,7 +6,7 @@ export default defineConfig({
   plugins: [react()],
   resolve: {
     alias: {
-      '@': path.resolve('./ai-travel-planner/src'),
+      '@': path.resolve('./src'),
     },
   },
   server: {
