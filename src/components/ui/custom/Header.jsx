@@ -86,7 +86,7 @@ const [openDialog, setOpenDialog] = useState(false);
         </div>
       </div>
 
-      <Dialog open={openDialog} >
+      <Dialog open={openDialog} onOpenChange={setOpenDialog}>
         <DialogContent className='bg-gray-900/95 backdrop-blur-xl border border-white/10'>
           <DialogHeader>
             <DialogTitle></DialogTitle>
